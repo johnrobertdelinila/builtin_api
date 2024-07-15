@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		tbale,th,td{
+			border:1px solid gray;
+			border-collapse: collapse;
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Montserrat, sans-serif;
+        }
+
+		.table-striped {
+			margin: 30px;
+		}
+    </style>
+</head>
+
+<center>
+	<div style="border: 20px grove #gray; text-align: center; width: 80%;">
+<h1 style="font-size: 12pt;">CS Form No.212</h1>
+<h2 style="font-size: 10pt;">Revised 2017</h2>
+<body>
+
+	<center>
+	<h1><u>Personal  Data sheet</u></h1>
+	</center>
+	<table style="width: 100%;">
+
+</h2>
+  <h3 style="font-size: 12pt;">WARNING: Any misrepresentation made in the personal data sheet and the work
+  experience sheet shall cause the filling of administrative/criminal case/s against the personal concerned.</h3>
+
+  <h3 style="font-size: 12pt;">READ THE ATTACHED GUIDE TO FILLING OUT THE OUT THE PERSONAL DATA SHEET(PDS) BEFORE ACCOMPLISHING THE PDS FORM.<new line>
+  Print legibly. Tick appropriate boxes ( ) and use separate sheetif necessary. indicate N/A if not applicable. DO NO </h3>
+
+
+
+<div style="background-color:gray;color:white;padding:05px;">
+<form id="applicationForm">
+<u>l. Personal Information</u>
+</h2>
+		<td>
+			<label>SURNAME</label>
+		</td>
+		<td>
+			<input type="text" id="surname" placeholder="Enter your Lastname">
+		</td>
+	</table>
+	
+	<table style="width: 100%;">
+		<td>
+			<label>FIRST NAME</label>
+		</td>
+		<td>
+			<input type="text" id="firstname" placeholder="Enter your firstname">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<label>MIDDLE NAME</label>
+		</td>
+		<td>
+			<input type="text" id="middlename" placeholder="Enter your middlename">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>DATE OF BIRTH</LABEL>
+		</td>
+		<td>
+			<input type="text" id="dob" placeholder="Enter your BIERTHDAY">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>SEX</LABEL>
+		</td>
+		<td>
+			<input type="text" id="sex" placeholder="Enter your SEX">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>CIVIL STATUS</LABEL>
+		</td>
+		<td>
+			<input type="text" id="civilstatus" placeholder="Enter your status">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>WEIGHT(kg)
+		</td>
+		<td>
+			<input type="text" id="weight" placeholder="Enter your weight">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>HEIGHT(m)</LABEL>
+		</td>
+		<td>
+			<input type="text" id="height" placeholder="Enter height">
+		</td>
+	</table>
+	<table style="width: 100%;">
+		<td>
+			<LABEL>BLOOD TYPE</LABEL>
+		</td>
+		<td>
+			<input type="text" id="blood" placeholder="Enter your bloodtype">
+		</td>
+	</table>
+	</h2>
+
+
+	<center>
+	<button type="button" id="save"> Submit Application</button>
+	</center>
+</form>
+</div>
+</center>
+
+<h2 class="mt-5">Applications Table</h2>
+<table class="table table-striped">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Surname</th>
+			<th scope="col">First Name</th>
+			<th scope="col">Middle Name</th>
+			<th scope="col">Date of Birth</th>
+			<th scope="col">Sex</th>
+			<th scope="col">Civil Status</th>
+			<th scope="col">Weight</th>
+			<th scope="col">Height</th>
+			<th scope="col">Blood</th>
+			<th scope="col">Actions</th>
+		</tr>
+	</thead>
+	<tbody id="applicationTableBody">
+		<!-- Add new rows here -->
+	</tbody>
+</table>
+	
+</body>
+</html>
